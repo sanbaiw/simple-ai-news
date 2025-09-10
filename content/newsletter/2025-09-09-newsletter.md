@@ -1,0 +1,31 @@
+---
+title: "AI Newsletter - 2025-09-09"
+date: "2025-09-09"
+draft: false
+tags: ["newsletter", "ai"]
+categories: ["Daily"]
+---
+
+### Models
+ATOM Project, ChatGPT, Claude, Claude 3.5, Claude Code, Claude Haiku 3.5, Claude Opus 4, Claude Opus 4.1, Claude Sonnet 4, Codex, DeepSeek, GPT-5, Kimi, Kimi K2, Olmo, Opus 4.1, Qwen, Sonnet 4, Sonoma Dusk Alpha, Sonoma Sky Alpha, Z.ai, gemini, gpt
+### Companies
+Anthropic, Apollo Global Management, Braintrust, Groq, OpenAI, Product Hunt, Raindrop, Smithery, Sourcegraph, US Census Bureau, Wikipedia, a16z, xAI
+### People
+Alex, Ankur Goyal, Ben Hylak, Dan Wang, Doug Guthrie, Dr. Torsten Sløk, Geoffrey Huntley, Henry, Martin Casado, Shreya, Simon Willison
+### Products/Tools
+Amp, Analysis tool, Apple in China, Artifacts Logs, Breakneck, BuildKit 2.0, C, CLI tool, COLM, CSV, ChatGPT, Code Interpreter, Code execution tool, Codex CLI, Compound, Cursor, Droids, Excel, Fenic, GNU Bash, Gartner Hype Cycle, Golang, Interconnects, Interconnects Discord, LLM judges, LLVM, LeetCode, MCPs, Nano-banana browser, Node.js, NotebookLM, Notte, Numbers, Oasis 2.0, OpenAPI, OpenRouter, Operate, PDF, PNG, PowerPoint, PyTorch Conference, Pyodide, Python, Research Goblin, Rork for iOS, Rust, SemTools, Stagehand Agent, Story Arc Engine, Swift interpreter, TSV, Terminal-Bench, The Curve, The Economist, Twiggy, Upgraded file creation and analysis, Whisper, Zig, curl, cursed, datasette.io, google.com, httpbin.org, matplotlib, npm, numpy, pandas, pip
+
+
+## Articles
+
+- [Any model in your CLI](https://www.bensbites.com/p/any-model-in-your-cli) — This newsletter issue covers a significant debate on the necessity and methodology of 'evals' for AI products, featuring diverse expert opinions on testing AI performance. It highlights new AI model developments, including Kimi K2 outperforming Opus 4.1 and the introduction of OpenRouter's Sonoma Sky Alpha and Sonoma Dusk Alpha models, possibly from xAI. Key product updates include new chat branching for ChatGPT and features for NotebookLM. The issue also reviews a wide array of new AI tools and platforms, ranging from a CLI tool supporting multiple LLMs to specialized agentic toolkits like Compound by Groq, and development resources like BuildKit 2.0 for AI tools, alongside other notable items for AI builders and tinkerers.
+
+- [On China's open source AI trajectory](https://www.interconnects.ai/p/on-chinas-open-source-ai-trajectory) — This article examines China's burgeoning open AI ecosystem, predicting that the current prominence of Chinese open-source models like Qwen, Kimi, Z.ai, and DeepSeek could escalate, potentially surpassing the US. Initially driven by companies, the PRC Government is now strategically engaging, with an a16z partner noting that 80% of their portfolio companies utilize Chinese open-source models. The author questions if China will further commit to this strategy, drawing parallels to its infrastructure development, and suggests that official warnings against "disorderly competition" paradoxically support open models by reducing redundancy and fostering specialized ecosystems, ultimately boosting Chinese AI chip adoption and global research influence.
+
+- [My review of Claude's new Code Interpreter, released under a very confusing name](https://simonwillison.net/2025/Sep/9/claude-code-interpreter/#atom-tag) — The article reviews Claude's new "Upgraded file creation and analysis" feature, a server-side code interpreter similar to ChatGPT's Code Interpreter. This new capability allows Claude to execute Python and Node.js code in a sandboxed environment to create and edit various files such as Excel spreadsheets, PDFs, and generate data visualizations, as well as perform advanced data analysis. The author notes the confusing feature naming, contrasting it with Claude's older, browser-based "Analysis tool," and provides technical details about the execution environment, including its Ubuntu OS, available memory, and network access capabilities.
+
+- [Geoffrey Huntley is cursed](https://simonwillison.net/2025/Sep/9/cursed/#atom-tag) — Geoffrey Huntley developed a new programming language called "cursed" over three months by iteratively prompting Claude, an AI model, to generate a Gen Z slang-based language akin to Golang. The project, which boasts 1,198 commits, features both an interpreter and a compiler capable of producing native binaries for macOS, Linux, and Windows via LLVM. Initially written in C, the language was later ported to Rust and then Zig by Claude, with an estimated total development cost of $14,000 USD, primarily facilitated by Sourcegraph's Amp for detailed commit messages.
+
+- [Recreating the Apollo AI adoption rate chart with GPT-5, Python and Pyodide](https://simonwillison.net/2025/Sep/9/apollo-ai-adoption/#atom-tag) — The article details an experiment to recreate an AI adoption rate chart, initially published by Dr. Torsten Sløk of Apollo Global Management, which indicated a slowdown in AI adoption among large companies based on US Census Bureau data. The author leveraged GPT-5's advanced search capabilities to locate the raw Census Bureau dataset and subsequently employed GPT-5's code interpreter with Python, pandas, numpy, and matplotlib to generate a matching chart. The process highlighted GPT-5's proficiency in data handling and visualization, though it initially missed a crucial detail about a "six-survey moving average," underscoring the importance of precise user prompting for accurate results.
+
+- [Anthropic status: Model output quality](https://simonwillison.net/2025/Sep/9/anthropic-model-output-quality/#atom-tag) — Anthropic has addressed and resolved several bugs that caused degraded output quality for a small percentage of requests for its Claude Sonnet 4 and Claude Haiku 3.5 models over the past month, following earlier issues with Claude Opus 4 and 4.1. The company explicitly denies intentionally degrading model quality to save costs, stating these were unrelated bugs. These incidents unfortunately coincided with the rollout of GPT-5, which is seen as a strong competitor to Claude's coding capabilities.
